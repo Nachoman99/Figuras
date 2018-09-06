@@ -6,8 +6,9 @@
 package figures;
 
 /**
- *
- * @author Nacho
+ * Clase para realizar un solo punto con coordenadas X y Y
+ *@author Jose Zamora y Esteban Barrantes
+ * @ version
  */
 public class Point {
     

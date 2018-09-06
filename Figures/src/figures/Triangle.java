@@ -6,8 +6,9 @@
 package figures;
 
 /**
- *
- * @author Nacho
+ * Clase de la figura del triangulo con tres putnos
+ * @author Jose Zamora y Esteban Barrantes
+ * @ version
  */
 public class Triangle {
     

@@ -6,8 +6,9 @@
 package figures;
 
 /**
- *
- * @author Nacho
+ * Clase para la linea con dos puntos 
+ * @author Jose Zamora y Esteban Barrantes
+ * @ version
  */
 public class Line {
     

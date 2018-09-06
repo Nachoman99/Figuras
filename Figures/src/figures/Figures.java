@@ -6,8 +6,9 @@
 package figures;
 
 /**
- *
- * @author Nacho
+ * Clase main donde se inicia los procesos de ingreso de datos y la ejecucion de clases
+ * @author Jose Zamora y Esteban Barrantes
+ * @ version
  */
 public class Figures {
 

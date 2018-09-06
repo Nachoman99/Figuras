@@ -6,8 +6,9 @@
 package figures;
 
 /**
- *
- * @author Nacho
+ * Clase de la figura del rectangulo con cuatro puntos
+ * @author Jose Zamora y Esteban Barrantes
+ * @ version
  */
 public class Rectangle {
     

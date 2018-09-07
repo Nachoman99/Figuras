@@ -6,7 +6,7 @@
 package figures;
 
 /**
- * Clase para la linea con dos puntos 
+ * Clase para la linea con dos punto 
  * @author Jose Zamora y Esteban Barrantes
  * @ version
  */

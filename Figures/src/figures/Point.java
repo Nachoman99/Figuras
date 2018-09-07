@@ -11,5 +11,5 @@ package figures;
  * @ version
  */
 public class Point {
-    
+    private int X;
 }

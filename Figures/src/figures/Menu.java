@@ -13,6 +13,8 @@ import javax.swing.JOptionPane;
 public class Menu {
    	public void iniciaMenu() {
             Line line=new Line();
+            Rectangle rectangle = new Rectangle();
+            Triangle triangle = new Triangle();
             Point point =new Point();
              Point point2 =new Point();
               Point point3 =new Point();
@@ -38,8 +40,8 @@ public class Menu {
 		case 2:
                      point.setX(gestor.solicitaInt("digite coordenda X"));
                     point.setY(gestor.solicitaInt("digite coordenda Y"));
-                    point2.setX(gestor.solicitaInt("digite coordenda X punto2"));
-                    point2.setY(gestor.solicitaInt("digite coordenda Y punto2"));
+                    point2.setX(gestor.solicitaInt("digite coordenda X del punto 2"));
+                    point2.setY(gestor.solicitaInt("digite coordenda Y del punto 2"));
                     //////////////////////////7
                     line.setPointStart(point);
                     line.setPointEnd(point2);
@@ -49,10 +51,31 @@ public class Menu {
                             +line.getPointEnd());
 			break;
 		case 3:
-	
+                    point.setX(gestor.solicitaInt("digite coordenda X"));
+                    point.setY(gestor.solicitaInt("digite coordenda Y"));
+                    point2.setX(gestor.solicitaInt("digite coordenda X del punto 2"));
+                    point2.setY(gestor.solicitaInt("digite coordenda Y del punto 2"));
+                    point3.setX(gestor.solicitaInt("digite coordenda X del punto 3"));
+                    point3.setY(gestor.solicitaInt("digite coordenda Y del punto 3"));
+                    point4.setX(gestor.solicitaInt("digite coordenda X del punto 4"));
+                    point4.setY(gestor.solicitaInt("digite coordenda Y del punto 4"));
+                    rectangle.setPoint1(point);
+                    rectangle.setPoint2(point2);
+                    rectangle.setPoint3(point3);
+                    rectangle.setPoint4(point4);
+                    gestor.mostrarMensaje("El rectangulo tiene los siguientes puntos: " + rectangle.toString());
+                  
 		break;
 		case 4:
-			 
+                    point.setX(gestor.solicitaInt("digite coordenda X"));
+                    point.setY(gestor.solicitaInt("digite coordenda Y"));
+                    point2.setX(gestor.solicitaInt("digite coordenda X del punto 2"));
+                    point2.setY(gestor.solicitaInt("digite coordenda Y del punto 2"));
+                    point3.setX(gestor.solicitaInt("digite coordenda X del punto 3"));
+                    triangle.setPoint1(point);
+                    triangle.setPoint2(point2);
+                    triangle.setPoint3(point3);
+                    gestor.mostrarMensaje("El triangulo tiene los siguientes puntos: " + triangle.toString());
 		break;
                 case 5:
                     desicion=false;

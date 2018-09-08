@@ -39,7 +39,7 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Punto " + "(" + X + "," + Y+")";
+        return "" + X +","+ Y+"";
     }
     
     

@@ -46,9 +46,7 @@ public class Menu {
                     line.setPointStart(point);
                     line.setPointEnd(point2);
                     
-                    gestor.mostrarMensaje("Punto1 de partida de la linea:"+
-                                line.getPointStart()+" punto2 de llegada"
-                            +line.getPointEnd());
+                    gestor.mostrarMensaje(""+line.toString());
 			break;
 		case 3:
                     point.setX(gestor.solicitaInt("digite coordenda X"));
@@ -72,6 +70,7 @@ public class Menu {
                     point2.setX(gestor.solicitaInt("digite coordenda X del punto 2"));
                     point2.setY(gestor.solicitaInt("digite coordenda Y del punto 2"));
                     point3.setX(gestor.solicitaInt("digite coordenda X del punto 3"));
+                    point3.setY(gestor.solicitaInt("digite coordenda Y del punto 3"));
                     triangle.setPoint1(point);
                     triangle.setPoint2(point2);
                     triangle.setPoint3(point3);

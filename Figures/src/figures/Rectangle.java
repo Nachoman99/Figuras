@@ -60,7 +60,7 @@ public class Rectangle {
 
     @Override
     public String toString() {
-        return "Rectangle{" + "point1=" + point1 + ", point2=" + point2 + ", point3=" + point3 + ", point4=" + point4 + '}';
+        return "Punto1= " + point1 + ", Punto2= " + point2 + ", Punto3= " + point3 + ", Punto4= " + point4;
     }
     
     

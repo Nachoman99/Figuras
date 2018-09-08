@@ -50,7 +50,7 @@ public class Triangle {
 
     @Override
     public String toString() {
-        return "Triangle{" + "point1=" + point1 + ", point2=" + point2 + ", point3=" + point3 + '}';
+        return "Punto1= " + point1 + ", Punto2= " + point2 + ", Punto3= " + point3;
     }
     
     

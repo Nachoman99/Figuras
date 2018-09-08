@@ -40,7 +40,7 @@ public class Line {
 
     @Override
     public String toString() {
-        return "Line{" + "pointStart=" + pointStart + ", pointEnd=" + pointEnd + '}';
+        return "Punto 1= " + pointStart + ", Punto 2= " + pointEnd;
     }
    
    

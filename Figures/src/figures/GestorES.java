@@ -7,7 +7,7 @@ package figures;
 import javax.swing.JOptionPane;
 /**
  *
- * @author Johan
+ @author Jose Zamora y Esteban Barrantes
  */
 public class GestorES {
     public double solicitaDouble(String mensaje){

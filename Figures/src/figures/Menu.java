@@ -12,36 +12,58 @@ import javax.swing.JOptionPane;
 import javax.swing.JOptionPane;
 public class Menu {
    	public void iniciaMenu() {
-	
-		Point point =new Point();
-		GestorES gestor =new GestorES();
-		//arriba ewstan los atributos//////////////////////////
+            Line line=new Line();
+            Point point =new Point();
+             Point point2 =new Point();
+              Point point3 =new Point();
+               Point point4 =new Point();
+            GestorES gestor =new GestorES();
+            boolean desicion=true;
+	           do {                
+		////////////////////////////
 		int opcion =Integer.parseInt(JOptionPane.showInputDialog(null,"seleccione una opcion\n"
 				+ "1)crear punto\n"
 				+ "2)crear linea\n"
 				+ "3)crear rectangulo\n"
-				+"4)crear triangulo"
+				+"4)crear triangulo\n"+"5)Salir"
 				));
-		int num1,num2;
-		double decimal1,decimal2;
 		switch (opcion) {
 		case 1:
-			point.setX(gestor.solicitaInt("digite coordenda X"));
-			point.setY(gestor.solicitaInt("digite coordenda Y"));
-			
+                    point.setX(gestor.solicitaInt("digite coordenda X"));
+                    point.setY(gestor.solicitaInt("digite coordenda Y"));
+                    gestor.mostrarMensaje("el punto1 es: "+point.getX()
+                               +"," +point.getY());
 			break;
 		case 2:
-			
+                     point.setX(gestor.solicitaInt("digite coordenda X"));
+                    point.setY(gestor.solicitaInt("digite coordenda Y"));
+                    point2.setX(gestor.solicitaInt("digite coordenda X punto2"));
+                    point2.setY(gestor.solicitaInt("digite coordenda Y punto2"));
+                    gestor.mostrarMensaje("el punto1 es: "+point.getX()
+                               +"," +point.getY()+" el punto2 es: "+
+                            point2.getX()+","+point2.getY());
+                    //////////////////////////7
+                    line.setPointStart(point);
+                    line.setPointEnd(point2);
+                    
+                    gestor.mostrarMensaje("Punto1 de partida de la linea:"+
+                                line.getPointStart()+" punto2 de llegada"
+                            +line.getPointEnd());
 			break;
 		case 3:
 	
 		break;
 		case 4:
 			 
-		break;		
+		break;
+                case 5:
+                    desicion=false;
+                    break;
 		default:
+                    gestor.mostrarMensaje("digite una opcion valida");
 			break;
-		}
+                } 
+		}while (desicion==true);
 
 	}//finIniciaMenu
 }

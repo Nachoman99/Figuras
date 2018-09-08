@@ -31,17 +31,15 @@ public class Menu {
 		case 1:
                     point.setX(gestor.solicitaInt("digite coordenda X"));
                     point.setY(gestor.solicitaInt("digite coordenda Y"));
-                    gestor.mostrarMensaje("el punto1 es: "+point.getX()
-                               +"," +point.getY());
+                    gestor.mostrarMensaje("el punto1 es: "
+                            + "("+point.getX()
+                               +"," +point.getY()+")");
 			break;
 		case 2:
                      point.setX(gestor.solicitaInt("digite coordenda X"));
                     point.setY(gestor.solicitaInt("digite coordenda Y"));
                     point2.setX(gestor.solicitaInt("digite coordenda X punto2"));
                     point2.setY(gestor.solicitaInt("digite coordenda Y punto2"));
-                    gestor.mostrarMensaje("el punto1 es: "+point.getX()
-                               +"," +point.getY()+" el punto2 es: "+
-                            point2.getX()+","+point2.getY());
                     //////////////////////////7
                     line.setPointStart(point);
                     line.setPointEnd(point2);
